@@ -1,0 +1,73 @@
+.navbar-brand img ,.logo{
+    width: 150px;
+}
+.input-w{
+    width: 40% !important; 
+}
+
+.small-text{
+    font-size: 9px;
+}
+.side-imgs img{
+    width: 100px;
+    cursor: pointer;
+}
+.big-img{
+    width: 700px;
+    
+}
+
+.batage{
+    width: 50px;
+}
+
+.small-img{
+    width: 60px;
+}
+
+.normal-text{
+    font-size: 13px;
+}
+
+.very-small-img{
+    width: 20px;
+}
+
+input::placeholder { /* Standard syntax */
+  color: #7F7F7F !important;
+  opacity: 1; /* Fix for Firefox default opacity */
+}
+
+.h-ele:hover{
+    cursor: pointer;
+    color: red !important;
+}
+
+#bigimg-container{
+    cursor: zoom-in;
+}
+
+.hover-display{
+    display: none !important;
+}
+
+.card:hover .hover-display{
+    display: block !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+        color: #333; /* Dark grey arrows */
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 15px;
+        border-radius: 25%;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: none;
+    }
+    .swiper-button-next::after, .swiper-button-prev::after {
+        font-size: 15px; 
+        /* font-weight: bold; */
+    }
+
+div:hover .swiper-button-next, div:hover .swiper-button-prev{
+    display: flex;
+}
